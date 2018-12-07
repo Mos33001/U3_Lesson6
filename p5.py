@@ -1,31 +1,56 @@
+human = input("Are you human?: ")
+if human.capitalize() == 'Yes':
+    print(" ")
+    print("You're human, Good. You may continue.")
+    name = input("Input Your Human Name : ")
+    print("      ")
+    print("Hello," + " " + name.capitalize())
+    print("      ")
 
-q1 = input("Are you human?: ")
-print("      ")
+    age = int(input(name.capitalize() + " " + "Please enter your human age? "))
+    if age > 30:
+            # x > 0, y > 0
+            print(" That appears to be old.")
+    else:
+            # x > 0, y <= 0
+            print("That is pretty young for a human")
+    # if letters -> invalid
+    How = input("How are you today?")
+    print("    ")
 
-print("Hello, Human")
-print("      ")
-	# add if then statement if yes then continue if not put neither am I 
-name = input("Input Your Human Name : ")
-print("      ")
- # if numbers invalid if letters continue
-print("Hello," + " " + name)
-print("      ")
+    print(How.capitalize())
+    print("      ")
+    print("Hmmm... ") 
+    print("           ")
 
-age = input(name + ", " + "Please enter your human age?")
-print("      ")
-# if letters -> invalid
-print(age + ", " + "that appears to be old")
-print("     ")
-# make a greater than or less than statement where 
-# if older than say 45 that apears to be old pops up other wise u are youthful pops up
-How = input("How are you today?")
-print("    ")
+    print("That is a very human response" + "   ")
+    print("      ")
+else:
+    not_human = input("What are you? ")
+    print("That is very unusual")
+    name = input("Input Your Name Being: ")
+    print("      ")
+    print("Hello," + " " + name)
+    print("      ")
 
-print(How)
-print("      ")
-print("Hmmm... ") 
-print("           ")
+    age = int(input(name + " " + "Please enter the time you have been alive? "))
+    print("    ")
+    if age > 30:
+            # x > 0, y > 0
+            print(" That appears to be old.")
+    else:
+            # x > 0, y <= 0
+            print("That is pretty young for a being like you.")
+    # if letters -> invalid
+    print("    ")
+    How = input("How are you today?")
+    print("    ")
 
-print("That is a very human response" + "   ")
-print("      ")
+    print(How)
+    print("      ")
+    print("Hmmm... ") 
+    print("           ")
+
+    print("That is a very human response" + "   ")
+    print("      ")
 
